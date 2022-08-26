@@ -1,9 +1,9 @@
-/***  FONTS ***/
+/*Fontes*/
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 
-/***  VARIABLES & THEMES ***/
+/*Variaveis e Temas*/
 
 :root {
   --primary-color: #cf0f0f;
@@ -59,7 +59,7 @@
   transform: rotateZ(180deg) scaleX(-1);
 }
 
-/***  GENERIC STYLES ***/
+/*Estilos Gerais */
 
 * {
   margin: 0;
@@ -145,7 +145,7 @@ textarea:focus-visible {
   border-color: black;
 }
 
-/*** HEADER STYLES ***/
+/*Header*/
 
 header {
   background-color: var(--header-background-color);
@@ -194,7 +194,7 @@ header::before {
   color: var(--primary-color-contrast);
 }
 
-/*** WORLD CHARACTERS STYLES ***/
+/*Word-characters-style*/
 
 .world-characters {
   width: 100%;
@@ -222,7 +222,7 @@ header::before {
   -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
 }
 
-/*** SECTIONS STYLES ***/
+/*Estilos Section*/
 
 section {
   display: flex;
@@ -385,7 +385,7 @@ section {
   color: var(--field-background-color);
 }
 
-/*** FOOTER STYLES ***/
+/*FOOTER STYLES*/
 
 footer {
   padding: 60px 0;
